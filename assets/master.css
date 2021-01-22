@@ -3,94 +3,99 @@
   padding: 0px;
   box-sizing: border-box;
   }
+
   body{
-      width: 100%;
-      /* position: relative; */
-    }
+  width: 100%;
+  }
 
   .logo{
-  /* width: 20px; */
-
-  /* position: absolute;
-  padding-left:  0; */
+   background-size: 30%;
 
   }
 
-  .container{
-    width: 80%;
-    margin: 0 auto;
-    }
-    nav{
-      color:lightgrey;
-    }
-    .imgprim{
-      background-image: url(../assets/img4/banner.jpg);
-      background-size: 95%;
-      height: 500px;
-      }
-    .modifiche{
-      color: white;
-      padding-top: 260px;
-    }
-    .row{
-      padding: 0 -15px;
-    }
-    [class^="col-"]{
-      float: left;
-      padding: 0px 15px;
-      }
-     .row:after{
-      content: "";
-      clear: both;
-      display: table;
-      }
-      #img{
-        height: 500px;
-      }
-      .col-100{
-        width: 100%;
-        }
-        .col-50{
-          /* margin-top: 55px; */
-          width: 30%;
-          /* height: 300px; */
-          }
-        .col-25{
-          /* margin-top: 55px;
-           border: 10px solid #0086FF;
-          border-right: 0px;
-          border-left: 0px;*/
-          width: 15%;
-
-         }
-         #img2{
-           height: 200px;
-         }
-/*
-
-
-[class^="col-"]{
-  float: left;
-  padding: 10px 0px;
+ .container{
+  width: 80%;
+  margin: 0 auto;
   }
 
-.bg-pink{
-  height: 80px;
-  background-color: #E579E5;
+  nav, #spaziatura{
+    color:lightgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
+  .imgprim{
+    background-image: url(../assets/img4/banner.jpg);
+    background-size: 85%;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  .modifiche{
+   color: white;
+   padding-top: 320px;
+  }
+
+  .row{
+    padding: 0 -15px;
+  }
+
+  [class^="col-"]{
+    float: left;
+    padding: 0px 15px;
+  }
+
+ .row:after{
+   content: "";
+   clear: both;
+   display: table;
+  }
+
+  .col-100{
+    width: 100%;
+    }
+
+  .col-50{
+   width: 50%;
+  }
+
+  .col-25{
+   width: 25%;
+  }
+
+ .immagine{
+  width: 100%;
+  /* background-image: lightgrey;   */
  }
-.bg-green{
+
+ .sfondoimg{
+  background-image: url(../assets/img4/img-1.jpg);
+  /*--- background-color: grey;  Ho provato a dargli lo sfondo per l'immagine ma non c'è l'ho fatta ---*/
   height: 250px;
-  background-color: #E1D57A;
- }
-.bg-blue{
-  height: 400px;
-  background-color: #ABCFE6;
- }
+  margin-bottom: 10px;
+  }
 
+  #img2{
+   height: 250px;
+   margin-top: 5px;
+  }
 
-.bg-purple{
-  height: 30px;
-  background-color: #8702FE;
-  margin-top: -15px;
-  } */
+  #img3{
+   height: 250px;
+   margin-top: 100px;
+   }
+
+   p{
+     color: lightgrey;
+   }
+
+  #cuore{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #cuore:after{
+   content:'\2665';
+   color: red;
+ }
