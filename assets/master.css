@@ -22,16 +22,16 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  section{
+  /* section{
     background: black;
-    /* #000000; */
+    /* #000000;
         opacity: 0.3;
-
-  }
+ no-repeat fixed center
+  } */
 
   .imgprim{
-    background-image: url(../assets/img4/banner.jpg);
-    background-size: 100%;
+    background-image: url(../assets/img4/banner.jpg) ;
+    background-size: cover;
     height: 411px;
     border-radius: 10px;
 
@@ -41,8 +41,9 @@
   .modifiche{
    color: white;
    padding-top: 320px;
-
-       /* width: 100%; */
+   background-color: rgba(0, 0, 0, 0.2);
+   height: 100%;
+   width: 100%;           
 
   }
 
