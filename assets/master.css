@@ -8,9 +8,8 @@
   width: 100%;
   }
 
-  .logo{
-   background-size: 30%;
-
+  #dim-img{
+    width: 150px;
   }
 
  .container{
@@ -23,17 +22,28 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  section{
+    background: black;
+    /* #000000; */
+        opacity: 0.3;
+
+  }
 
   .imgprim{
     background-image: url(../assets/img4/banner.jpg);
-    background-size: 85%;
-    height: 500px;
+    background-size: 100%;
+    height: 411px;
     border-radius: 10px;
+
   }
+
 
   .modifiche{
    color: white;
    padding-top: 320px;
+
+       /* width: 100%; */
+
   }
 
   .row{
@@ -65,26 +75,37 @@
 
  .immagine{
   width: 100%;
+  /* border: 3px solid black; */
   /* background-image: lightgrey;   */
+ }
+ .best [id^="img-"]{
+   background-color: lightgrey;
  }
 
  .sfondoimg{
-  background-image: url(../assets/img4/img-1.jpg);
-  /*--- background-color: grey;  Ho provato a dargli lo sfondo per l'immagine ma non c'è l'ho fatta ---*/
+  background:white; color:green; opacity: 1;
   height: 250px;
   margin-bottom: 10px;
-  }
 
+  }
+  #img1{
+    background-color: lightgrey;
+    height: 250px;
+  }
   #img2{
-   height: 250px;
-   margin-top: 5px;
+    height: 250px;
+     background-blend-mode: difference;
+      opacity: 0.5;
+
+  }
+  #img3{
+    height: 250px;
   }
 
-  #img3{
-   height: 250px;
-   margin-top: 100px;
+   .grey{
+     background: #000000;
+      opacity: 0.7;
    }
-
    p{
      color: lightgrey;
    }
@@ -94,7 +115,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  
+
   #cuore:after{
    content:'\2665';
    color: red;
